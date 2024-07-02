@@ -1,6 +1,58 @@
 body{
-    background: url('D:/OneDrive - MSFT/Personal/Work/Sleep Disorder Prediction/sleeping-disorder.jpg');
+    background: url(sleeping-disorder.jpg);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
+}
+/* Body and container styles */
+body {
+    background-color: #f8f9fa;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: transparent;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+/* Form styles */
+form {
+    padding: 20px;
+    border: 1px solid #e9ecef;
+    border-radius: 10px;
+}
+
+.form-label {
+    font-weight: bold;
+}
+
+.form-control {
+    border-radius: 5px;
+}
+
+.btn-primary {
+    width: 150px;
+}
+
+/* Result display styles */
+#result {
+    margin-top: 20px;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.alert-success {
+    color: #155724;
+    background-color: #d4edda;
+    border-color: #c3e6cb;
+}
+
+.alert-danger {
+    color: #721c24;
+    background-color: #f8d7da;
+    border-color: #f5c6cb;
 }

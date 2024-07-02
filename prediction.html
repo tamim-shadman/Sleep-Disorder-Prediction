@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css">
+  <title>Sleep Disorder Prediction</title>
+</head>
+<body class="vh-100 overflow-auto">
+  <div class="container mt-5">
+    <h1 class="text-center">Sleep Disorder Prediction</h1>
+    <form class="mt-4" id="predictionForm">
+      <div class="row mb-3">
+        <div class="col">
+          <label for="age" class="form-label">Age</label>
+          <input type="number" class="form-control" id="age" required>
+        </div>
+        <div class="col">
+          <label for="sleepDuration" class="form-label">Sleep Duration (hours)</label>
+          <input type="number" class="form-control" id="sleepDuration" required>
+        </div>
+      </div>
+      <div class="row mb-3">
+        <div class="col">
+          <label for="sleepQuality" class="form-label">Quality of Sleep (1-10)</label>
+          <input type="number" class="form-control" id="sleepQuality" required>
+        </div>
+        <div class="col">
+          <label for="physicalActivity" class="form-label">Physical Activity Level (1-10)</label>
+          <input type="number" class="form-control" id="physicalActivity" required>
+        </div>
+      </div>
+      <div class="row mb-3">
+        <div class="col">
+          <label for="stressLevel" class="form-label">Stress Level (1-10)</label>
+          <input type="number" class="form-control" id="stressLevel" required>
+        </div>
+        <div class="col">
+          <label for="heartRate" class="form-label">Heart Rate (bpm)</label>
+          <input type="number" class="form-control" id="heartRate" required>
+        </div>
+      </div>
+      <div class="row mb-3">
+        <div class="col">
+          <label for="dailySteps" class="form-label">Daily Steps</label>
+          <input type="number" class="form-control" id="dailySteps" required>
+        </div>
+        <div class="col">
+          <label for="gender" class="form-label">Gender</label>
+          <select class="form-select" id="gender" required>
+            <option value="" selected disabled>Select</option>
+            <option value="Male">Male</option>
+            <option value="Female">Female</option>
+            <option value="Other">Other</option>
+          </select>
+        </div>
+      </div>
+      <div class="row mb-3">
+        <div class="col">
+          <label for="occupation" class="form-label">Occupation</label>
+          <select class="form-select" id="occupation" required>
+            <option value="" selected disabled>Select</option>
+            <option value="Student">Student</option>
+            <option value="Professional">Professional</option>
+            <option value="Retired">Retired</option>
+            <option value="Other">Other</option>
+          </select>
+        </div>
+        <div class="col">
+          <label for="bmiCategory" class="form-label">BMI Category</label>
+          <select class="form-select" id="bmiCategory" required>
+            <option value="" selected disabled>Select</option>
+            <option value="Underweight">Underweight</option>
+            <option value="Normal weight">Normal weight</option>
+            <option value="Overweight">Overweight</option>
+            <option value="Obese">Obese</option>
+          </select>
+        </div>
+      </div>
+      <div class="row mb-3">
+        <div class="col">
+            <label for="bloodPressure" class="form-label">Blood Pressure (e.g., 180/35)</label>
+            <input type="text" class="form-control" id="bloodPressure" placeholder="180/35" required>
+        </div>
+      </div>
+      <div class="text-center">
+        <button type="submit" class="btn btn-primary" id="predictBtn">Predict</button>
+      </div>
+    </form>
+    <div id="result" class="mt-3"></div>
+  </div>
+
+  <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
