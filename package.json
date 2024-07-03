@@ -1,5 +1,9 @@
 {
   "dependencies": {
     "bootstrap": "^5.3.3"
+  },
+  
+  "scripts": {
+    "build": "your-build-command"
   }
 }
