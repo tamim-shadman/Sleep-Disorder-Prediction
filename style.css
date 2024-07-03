@@ -1,17 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=FAMILY_NAME:wght@WEIGHT_OR_RANGE&display=swap');
 
-
-
-body{
+body {
     background: url(sleeping-disorder.jpg);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
-}
-/* Body and container styles */
-body {
     background-color: #f8f9fa;
     font-family: Arial, sans-serif;
+    padding-bottom: 20px; /* Reduced padding as footer is no longer fixed */
 }
 
 .container {
@@ -28,6 +24,7 @@ form {
     padding: 20px;
     border: 1px solid #e9ecef;
     border-radius: 10px;
+    margin-bottom: 50px; /* Added margin to ensure space for the footer */
 }
 
 .form-label {
@@ -41,7 +38,6 @@ form {
 .btn-primary {
     width: 150px;
 }
-
 
 /* Popup container */
 #customAlert {
@@ -125,11 +121,10 @@ button {
 
 /* Footer Styling */
 .footer {
-    background-color: rgba(0, 0, 0, 0.1); /* Transparent background */
-    color: white;
+    background-color: solid; /* Transparent background */
+    color: rgba(0, 0, 0, 0.6);
     padding: 10px 0; /* Smaller padding */
     text-align: center;
-    position: fixed;
     width: 100%;
     bottom: 0;
 }
@@ -138,6 +133,7 @@ button {
     max-width: 1200px;
     margin: 0 auto;
     display: flex;
+    justify-content: space-between;
     flex-direction: column;
     align-items: center;
 }
