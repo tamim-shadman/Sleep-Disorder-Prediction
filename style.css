@@ -37,7 +37,17 @@ form {
 
 .btn-primary {
     width: 150px;
+    background-color: transparent;
+    border: 2px solid #007bff;
+    color: #007bff;
+    transition: background-color 0.3s ease, color 0.3s ease;
 }
+
+.btn-primary:hover {
+    background-color: #007bff;
+    color: white;
+}
+
 
 /* Popup container */
 #customAlert {
