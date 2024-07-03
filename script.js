@@ -1,4 +1,4 @@
-// script.js
+
 $(document).ready(function() {
     $('#predictionForm').submit(function(event) {
         event.preventDefault(); // Prevent the form from submitting
