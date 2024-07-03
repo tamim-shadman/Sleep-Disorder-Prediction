@@ -40,14 +40,14 @@ form {
     background-color: transparent;
     border: 2px solid #007bff;
     color: #007bff;
-    transition: background-color 0.3s ease, color 0.3s ease;
+    transition: background-color 0.3s ease, color 0.3s ease, transform 0.3s ease;
 }
 
 .btn-primary:hover {
     background-color: #007bff;
     color: white;
+    transform: scale(1.05);
 }
-
 
 /* Popup container */
 #customAlert {
@@ -131,7 +131,7 @@ button {
 
 /* Footer Styling */
 .footer {
-    background-color: solid; /* Transparent background */
+    background-color: rgba(0, 0, 0, 0.1); /* Transparent background */
     color: rgba(0, 0, 0, 0.6);
     padding: 10px 0; /* Smaller padding */
     text-align: center;
@@ -186,4 +186,49 @@ button {
 .footer p {
     margin: 5px 0;
     font-size: 12px; /* Smaller font size */
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .container {
+        padding: 10px;
+    }
+
+    .form-label, .form-control, .btn-primary {
+        font-size: 14px;
+    }
+
+    .btn-primary {
+        width: 100%;
+    }
+
+    .footer-logo h2 {
+        font-size: 16px;
+    }
+
+    .footer-contact p, .footer-contact a, .footer p {
+        font-size: 12px;
+    }
+}
+
+@media (max-width: 576px) {
+    .container {
+        padding: 5px;
+    }
+
+    .form-label, .form-control, .btn-primary {
+        font-size: 12px;
+    }
+
+    .btn-primary {
+        width: 100%;
+    }
+
+    .footer-logo h2 {
+        font-size: 14px;
+    }
+
+    .footer-contact p, .footer-contact a, .footer p {
+        font-size: 10px;
+    }
 }
