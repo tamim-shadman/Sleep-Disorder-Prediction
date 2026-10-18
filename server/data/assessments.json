@@ -1,0 +1,447 @@
+[
+  {
+    "id": "asm_mvdk1wvapazn",
+    "createdAt": "2026-10-18T08:20:04.390Z",
+    "age": 28,
+    "sleep_duration": 5,
+    "quality_of_sleep": 3,
+    "physical_activity_level": 70,
+    "stress_level": 9,
+    "heart_rate": 64,
+    "daily_steps": 8500,
+    "gender": "Male",
+    "occupation": "Software Engineer",
+    "bmi_category": "Normal weight",
+    "blood_pressure": "118/76",
+    "prediction": {
+      "sleep_disorder": 1,
+      "label": "Insomnia",
+      "severity": "High Clinical Probability",
+      "badgeColor": "amber",
+      "sleepScore": 25,
+      "probabilities": {
+        "healthy": 0,
+        "insomnia": 100,
+        "sleep_apnea": 0
+      },
+      "biomarkers": {
+        "bloodPressure": {
+          "systolic": 118,
+          "diastolic": 76,
+          "category": "Normal",
+          "meanArterialPressure": 90,
+          "pulsePressure": 42
+        },
+        "bmiCategory": "normal weight",
+        "heartRate": 64,
+        "sleepDuration": 5,
+        "stressLevel": 9,
+        "sleepQuality": 3
+      },
+      "riskFactors": [
+        {
+          "metric": "Autonomic Stress Index",
+          "finding": "Severe Stress Level (9/10)",
+          "impact": "Triggers chronic hypothalamic-pituitary-adrenal (HPA) axis hyperarousal, inhibiting sleep onset."
+        },
+        {
+          "metric": "Sleep Duration",
+          "finding": "Severe Sleep Restriction (5h / night)",
+          "impact": "Creates chronic sleep debt, impairing cognitive processing and metabolic clearing."
+        },
+        {
+          "metric": "Subjective Sleep Quality",
+          "finding": "Poor Sleep Quality (3/10)",
+          "impact": "Indicates frequent awakenings, non-restorative sleep, or architectural fragmentation."
+        }
+      ],
+      "positiveFactors": [
+        "Optimal arterial blood pressure within recommended physiological range.",
+        "Healthy BMI lowers upper airway resistance and cardiopulmonary strain.",
+        "Resting heart rate (64 bpm) reflects good cardiovascular conditioning.",
+        "Adequate daily physical activity and step volume promote homeostatic sleep drive (adenosine buildup)."
+      ],
+      "recommendations": [
+        {
+          "title": "Cognitive Behavioral Therapy for Insomnia (CBT-I)",
+          "detail": "First-line clinical treatment for insomnia. Implement stimulus control (bed is strictly for sleep) and sleep restriction protocols.",
+          "priority": "High"
+        },
+        {
+          "title": "Digital Curfew & Circadian Photobiology",
+          "detail": "Cease exposure to high-energy blue wavelength light 60-90 minutes prior to targeted sleep onset to allow natural melatonin surge.",
+          "priority": "High"
+        },
+        {
+          "title": "Autonomic Downregulation Routine",
+          "detail": "Incorporate 10 minutes of cyclic sighing or 4-7-8 parasympathetic breathwork prior to bed to reduce nocturnal resting heart rate.",
+          "priority": "Medium"
+        }
+      ],
+      "calculatedAt": "2026-10-18T08:20:04.390Z"
+    }
+  },
+  {
+    "id": "asm_mvdiw3fx51uj",
+    "createdAt": "2026-10-18T07:47:33.357Z",
+    "age": 38,
+    "sleep_duration": 5.2,
+    "quality_of_sleep": 4,
+    "physical_activity_level": 30,
+    "stress_level": 8,
+    "heart_rate": 82,
+    "daily_steps": 4200,
+    "gender": "Female",
+    "occupation": "Sales Representative",
+    "bmi_category": "Normal weight",
+    "blood_pressure": "126/82",
+    "prediction": {
+      "sleep_disorder": 1,
+      "label": "Insomnia",
+      "severity": "High Clinical Probability",
+      "badgeColor": "amber",
+      "sleepScore": 21,
+      "probabilities": {
+        "healthy": 0,
+        "insomnia": 100,
+        "sleep_apnea": 0
+      },
+      "biomarkers": {
+        "bloodPressure": {
+          "systolic": 126,
+          "diastolic": 82,
+          "category": "Hypertension Stage 1",
+          "meanArterialPressure": 97,
+          "pulsePressure": 44
+        },
+        "bmiCategory": "normal weight",
+        "heartRate": 82,
+        "sleepDuration": 5.2,
+        "stressLevel": 8,
+        "sleepQuality": 4
+      },
+      "riskFactors": [
+        {
+          "metric": "Autonomic Stress Index",
+          "finding": "Severe Stress Level (8/10)",
+          "impact": "Triggers chronic hypothalamic-pituitary-adrenal (HPA) axis hyperarousal, inhibiting sleep onset."
+        },
+        {
+          "metric": "Sleep Duration",
+          "finding": "Severe Sleep Restriction (5.2h / night)",
+          "impact": "Creates chronic sleep debt, impairing cognitive processing and metabolic clearing."
+        },
+        {
+          "metric": "Subjective Sleep Quality",
+          "finding": "Poor Sleep Quality (4/10)",
+          "impact": "Indicates frequent awakenings, non-restorative sleep, or architectural fragmentation."
+        },
+        {
+          "metric": "Resting Heart Rate",
+          "finding": "Elevated Pulse (82 bpm)",
+          "impact": "Sympathetic nervous system hyperarousal during resting and pre-sleep states."
+        }
+      ],
+      "positiveFactors": [
+        "Optimal arterial blood pressure within recommended physiological range.",
+        "Healthy BMI lowers upper airway resistance and cardiopulmonary strain."
+      ],
+      "recommendations": [
+        {
+          "title": "Cognitive Behavioral Therapy for Insomnia (CBT-I)",
+          "detail": "First-line clinical treatment for insomnia. Implement stimulus control (bed is strictly for sleep) and sleep restriction protocols.",
+          "priority": "High"
+        },
+        {
+          "title": "Digital Curfew & Circadian Photobiology",
+          "detail": "Cease exposure to high-energy blue wavelength light 60-90 minutes prior to targeted sleep onset to allow natural melatonin surge.",
+          "priority": "High"
+        },
+        {
+          "title": "Autonomic Downregulation Routine",
+          "detail": "Incorporate 10 minutes of cyclic sighing or 4-7-8 parasympathetic breathwork prior to bed to reduce nocturnal resting heart rate.",
+          "priority": "Medium"
+        }
+      ],
+      "calculatedAt": "2026-10-18T07:47:33.357Z"
+    }
+  },
+  {
+    "id": "asm_mvdhm0508xa8",
+    "createdAt": "2026-10-18T07:11:42.900Z",
+    "age": 38,
+    "sleep_duration": 5.2,
+    "quality_of_sleep": 4,
+    "physical_activity_level": 30,
+    "stress_level": 8,
+    "heart_rate": 82,
+    "daily_steps": 4200,
+    "gender": "Female",
+    "occupation": "Sales Representative",
+    "bmi_category": "Normal weight",
+    "blood_pressure": "126/82",
+    "prediction": {
+      "sleep_disorder": 1,
+      "label": "Insomnia",
+      "severity": "High Clinical Probability",
+      "badgeColor": "amber",
+      "sleepScore": 21,
+      "probabilities": {
+        "healthy": 0,
+        "insomnia": 100,
+        "sleep_apnea": 0
+      },
+      "biomarkers": {
+        "bloodPressure": {
+          "systolic": 126,
+          "diastolic": 82,
+          "category": "Hypertension Stage 1",
+          "meanArterialPressure": 97,
+          "pulsePressure": 44
+        },
+        "bmiCategory": "normal weight",
+        "heartRate": 82,
+        "sleepDuration": 5.2,
+        "stressLevel": 8,
+        "sleepQuality": 4
+      },
+      "riskFactors": [
+        {
+          "metric": "Autonomic Stress Index",
+          "finding": "Severe Stress Level (8/10)",
+          "impact": "Triggers chronic hypothalamic-pituitary-adrenal (HPA) axis hyperarousal, inhibiting sleep onset."
+        },
+        {
+          "metric": "Sleep Duration",
+          "finding": "Severe Sleep Restriction (5.2h / night)",
+          "impact": "Creates chronic sleep debt, impairing cognitive processing and metabolic clearing."
+        },
+        {
+          "metric": "Subjective Sleep Quality",
+          "finding": "Poor Sleep Quality (4/10)",
+          "impact": "Indicates frequent awakenings, non-restorative sleep, or architectural fragmentation."
+        },
+        {
+          "metric": "Resting Heart Rate",
+          "finding": "Elevated Pulse (82 bpm)",
+          "impact": "Sympathetic nervous system hyperarousal during resting and pre-sleep states."
+        }
+      ],
+      "positiveFactors": [
+        "Optimal arterial blood pressure within recommended physiological range.",
+        "Healthy BMI lowers upper airway resistance and cardiopulmonary strain."
+      ],
+      "recommendations": [
+        {
+          "title": "Cognitive Behavioral Therapy for Insomnia (CBT-I)",
+          "detail": "First-line clinical treatment for insomnia. Implement stimulus control (bed is strictly for sleep) and sleep restriction protocols.",
+          "priority": "High"
+        },
+        {
+          "title": "Digital Curfew & Circadian Photobiology",
+          "detail": "Cease exposure to high-energy blue wavelength light 60-90 minutes prior to targeted sleep onset to allow natural melatonin surge.",
+          "priority": "High"
+        },
+        {
+          "title": "Autonomic Downregulation Routine",
+          "detail": "Incorporate 10 minutes of cyclic sighing or 4-7-8 parasympathetic breathwork prior to bed to reduce nocturnal resting heart rate.",
+          "priority": "Medium"
+        }
+      ],
+      "calculatedAt": "2026-10-18T07:11:42.900Z"
+    }
+  },
+  {
+    "id": "asm_mvdhk6zrq76s",
+    "createdAt": "2026-10-18T07:10:18.471Z",
+    "age": 30,
+    "sleep_duration": 7.5,
+    "quality_of_sleep": 8,
+    "physical_activity_level": 60,
+    "stress_level": 4,
+    "heart_rate": 72,
+    "daily_steps": 8000,
+    "gender": "Male",
+    "occupation": "Engineer",
+    "bmi_category": "Normal weight",
+    "blood_pressure": "120/80",
+    "prediction": {
+      "sleep_disorder": 0,
+      "label": "Healthy Sleep Routine",
+      "severity": "Low Disorder Risk",
+      "badgeColor": "emerald",
+      "sleepScore": 63,
+      "probabilities": {
+        "healthy": 100,
+        "insomnia": 0,
+        "sleep_apnea": 0
+      },
+      "biomarkers": {
+        "bloodPressure": {
+          "systolic": 120,
+          "diastolic": 80,
+          "category": "Hypertension Stage 1",
+          "meanArterialPressure": 93,
+          "pulsePressure": 40
+        },
+        "bmiCategory": "normal weight",
+        "heartRate": 72,
+        "sleepDuration": 7.5,
+        "stressLevel": 4,
+        "sleepQuality": 8
+      },
+      "riskFactors": [],
+      "positiveFactors": [
+        "Optimal arterial blood pressure within recommended physiological range.",
+        "Healthy BMI lowers upper airway resistance and cardiopulmonary strain.",
+        "Low stress score supports physiological vagal tone and rapid sleep initiation.",
+        "Optimal nocturnal sleep duration of 7.5 hours aligns with circadian norms.",
+        "High subjective sleep quality score reflects sound delta-wave sleep continuity.",
+        "Adequate daily physical activity and step volume promote homeostatic sleep drive (adenosine buildup)."
+      ],
+      "recommendations": [
+        {
+          "title": "Maintain Circadian Regularity",
+          "detail": "Preserve consistent sleep and wake times within a ±30 minute window, even on weekends, to anchor your internal master circadian pacemaker.",
+          "priority": "Low"
+        },
+        {
+          "title": "Morning Photonic Zeitgeber",
+          "detail": "Expose eyes to natural sunlight within 30 minutes of waking for 10-15 minutes to synchronize cortisol awakening response.",
+          "priority": "Low"
+        }
+      ],
+      "calculatedAt": "2026-10-18T07:10:18.471Z"
+    }
+  },
+  {
+    "id": "asm_mvdhk3mp52zn",
+    "createdAt": "2026-10-18T07:10:14.113Z",
+    "age": 38,
+    "sleep_duration": 5.2,
+    "quality_of_sleep": 4,
+    "physical_activity_level": 30,
+    "stress_level": 8,
+    "heart_rate": 82,
+    "daily_steps": 4200,
+    "gender": "Female",
+    "occupation": "Sales Representative",
+    "bmi_category": "Normal weight",
+    "blood_pressure": "126/82",
+    "prediction": {
+      "sleep_disorder": 1,
+      "label": "Insomnia",
+      "severity": "High Clinical Probability",
+      "badgeColor": "amber",
+      "sleepScore": 21,
+      "probabilities": {
+        "healthy": 0,
+        "insomnia": 100,
+        "sleep_apnea": 0
+      },
+      "biomarkers": {
+        "bloodPressure": {
+          "systolic": 126,
+          "diastolic": 82,
+          "category": "Hypertension Stage 1",
+          "meanArterialPressure": 97,
+          "pulsePressure": 44
+        },
+        "bmiCategory": "normal weight",
+        "heartRate": 82,
+        "sleepDuration": 5.2,
+        "stressLevel": 8,
+        "sleepQuality": 4
+      },
+      "riskFactors": [
+        {
+          "metric": "Autonomic Stress Index",
+          "finding": "Severe Stress Level (8/10)",
+          "impact": "Triggers chronic hypothalamic-pituitary-adrenal (HPA) axis hyperarousal, inhibiting sleep onset."
+        },
+        {
+          "metric": "Sleep Duration",
+          "finding": "Severe Sleep Restriction (5.2h / night)",
+          "impact": "Creates chronic sleep debt, impairing cognitive processing and metabolic clearing."
+        },
+        {
+          "metric": "Subjective Sleep Quality",
+          "finding": "Poor Sleep Quality (4/10)",
+          "impact": "Indicates frequent awakenings, non-restorative sleep, or architectural fragmentation."
+        },
+        {
+          "metric": "Resting Heart Rate",
+          "finding": "Elevated Pulse (82 bpm)",
+          "impact": "Sympathetic nervous system hyperarousal during resting and pre-sleep states."
+        }
+      ],
+      "positiveFactors": [
+        "Optimal arterial blood pressure within recommended physiological range.",
+        "Healthy BMI lowers upper airway resistance and cardiopulmonary strain."
+      ],
+      "recommendations": [
+        {
+          "title": "Cognitive Behavioral Therapy for Insomnia (CBT-I)",
+          "detail": "First-line clinical treatment for insomnia. Implement stimulus control (bed is strictly for sleep) and sleep restriction protocols.",
+          "priority": "High"
+        },
+        {
+          "title": "Digital Curfew & Circadian Photobiology",
+          "detail": "Cease exposure to high-energy blue wavelength light 60-90 minutes prior to targeted sleep onset to allow natural melatonin surge.",
+          "priority": "High"
+        },
+        {
+          "title": "Autonomic Downregulation Routine",
+          "detail": "Incorporate 10 minutes of cyclic sighing or 4-7-8 parasympathetic breathwork prior to bed to reduce nocturnal resting heart rate.",
+          "priority": "Medium"
+        }
+      ],
+      "calculatedAt": "2026-10-18T07:10:14.113Z"
+    }
+  },
+  {
+    "id": "seed-1",
+    "createdAt": "2026-10-15T07:09:32.591Z",
+    "age": 29,
+    "sleep_duration": 8,
+    "quality_of_sleep": 9,
+    "stress_level": 3,
+    "heart_rate": 65,
+    "blood_pressure": "118/76",
+    "prediction": {
+      "sleep_disorder": 0,
+      "label": "Healthy Sleep Routine",
+      "sleepScore": 94
+    }
+  },
+  {
+    "id": "seed-2",
+    "createdAt": "2026-10-16T07:09:32.592Z",
+    "age": 43,
+    "sleep_duration": 5.5,
+    "quality_of_sleep": 4,
+    "stress_level": 8,
+    "heart_rate": 82,
+    "blood_pressure": "128/84",
+    "prediction": {
+      "sleep_disorder": 1,
+      "label": "Insomnia",
+      "sleepScore": 48
+    }
+  },
+  {
+    "id": "seed-3",
+    "createdAt": "2026-10-17T07:09:32.592Z",
+    "age": 52,
+    "sleep_duration": 6.2,
+    "quality_of_sleep": 5,
+    "stress_level": 6,
+    "heart_rate": 76,
+    "blood_pressure": "142/92",
+    "prediction": {
+      "sleep_disorder": 2,
+      "label": "Sleep Apnea",
+      "sleepScore": 52
+    }
+  }
+]
